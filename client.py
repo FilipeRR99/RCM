@@ -215,7 +215,7 @@ def readFile(max_rssi, min_rssi, rssi_samples):
 
 def main():
     """
-    cycle to get the parameters defined by the monitor, this values are hardcoded just for test purposes
+    cycle to get the parameters defined by the monitor, this values are hardcoded just for test purposes,usually they should be sent by the Part B
     while True:
         recv = getParameters()
         if len(recv) != 0:
